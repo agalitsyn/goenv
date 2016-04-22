@@ -22,9 +22,11 @@ get-example:
 install-example:
 	go install github.com/golang/example/outyet
 
+test-example:
+	go test -v github.com/golang/example/outyet
+
 run-example:
 	outyet --http 0.0.0.0:8080 --version 1.6
 
-test-example:
+test-end-to-end-example:
 	@-curl 0.0.0.0:8080
-
