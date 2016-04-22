@@ -84,6 +84,10 @@ $ git config --global url."git@gitlab.2gis.ru:".insteadOf "https://gitlab.2gis.r
 $ go get TODO
 ```
 
+## Другие рекомендации
+
+Много других материалов можно найти в [confluence][golang-must-read].
+
 # Общие соглашения
 
 ## Настройки репозитория
@@ -238,3 +242,6 @@ Unit и функциональные тесты вашего приложени�
 [gocode]: https://golang.org/doc/code.html
 [gimme]: https://github.com/travis-ci/gimme
 [godl]: https://golang.org/dl/
+
+[golang-must-read]: https://github.com/heroku/go-getting-started
+
