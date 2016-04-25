@@ -82,7 +82,14 @@ $ git config --global url."git@gitlab.2gis.ru:".insteadOf "https://gitlab.2gis.r
 
 ```sh
 $ go get TODO
+
 ```
+## Настройка редактора
+
+Для idea есть [go plugin][goplug], будет работать на любых IDE от JetBrains.
+
+Подробную инструкцию по настройке можете найти
+[здесь](https://rootpd.com/2016/02/04/setting-up-intellij-idea-for-your-first-golang-project/).
 
 ## Другие рекомендации
 
@@ -242,6 +249,7 @@ Unit и функциональные тесты вашего приложени�
 [gocode]: https://golang.org/doc/code.html
 [gimme]: https://github.com/travis-ci/gimme
 [godl]: https://golang.org/dl/
+[goplug]: https://github.com/go-lang-plugin-org/go-lang-idea-plugin
 
 [golang-must-read]: https://github.com/heroku/go-getting-started
 
