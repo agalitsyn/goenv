@@ -238,12 +238,12 @@ Unit и функциональные тесты вашего приложени�
 
 
 [gitlab]: https://gitlab.2gis.ru
-[this-repo]: https://gitlab.2gis.ru/io/platform/edit
-[deploy-keys]: https://gitlab.2gis.ru/io/platform/deploy_keys
-[services]: https://gitlab.2gis.ru/io/platform/services
-[protected-branches]: https://gitlab.2gis.ru/io/platform/protected_branches
-[merge-requests]: https://gitlab.2gis.ru/io/platform/merge_requests
-[users]: https://gitlab.2gis.ru/io/platform/project_members
+[this-repo]: https://gitlab.2gis.ru/continuous-delivery/golang-starter-kit/edit
+[deploy-keys]: https://gitlab.2gis.ru/continuous-delivery/golang-starter-kit/deploy_keys
+[services]: https://gitlab.2gis.ru/continuous-delivery/golang-starter-kit/services
+[protected-branches]: https://gitlab.2gis.ru/continuous-delivery/golang-starter-kit/protected_branches
+[merge-requests]: https://gitlab.2gis.ru/continuous-delivery/golang-starter-kit/merge_requests
+[users]: https://gitlab.2gis.ru/continuous-delivery/golang-starter-kit/project_members
 [git-crypt]: https://www.agwa.name/projects/git-crypt/
 
 [gocode]: https://golang.org/doc/code.html
