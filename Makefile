@@ -8,6 +8,7 @@ PACKAGES := golang.org/x/tools/cmd/oracle \
 	golang.org/x/tools/cmd/gorename \
 	github.com/josharian/impl \
 	github.com/mattn/goreman \
+	github.com/tools/godep \
 	github.com/kardianos/govendor
 
 install-go-tools:
