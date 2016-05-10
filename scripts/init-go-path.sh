@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 
-GO_ENV_FILENAME=".goenv"
 
 function create-go-path() {
     cat > "$GO_ENV_FILENAME" <<EOF
@@ -20,5 +19,6 @@ EOF
 }
 
 
+GO_ENV_FILENAME=${GO_ENV_FILENAME:-".goenv"}
 create-go-path
 
