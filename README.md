@@ -1,4 +1,4 @@
-Шаблон для рабочего окружения проектов на golang
+Шаблон для быстрой настройки go окружения.
 
 # Как начать работать?
 
@@ -74,20 +74,15 @@ $ make test-example
 $ make install-go-tools
 ```
 
-### Делаем go get с gitlab.2gis.ru
+### Делаем go get с приватного git репозитория
 
-Утилита `go get` по-умолчанию использует https. Чтобы это исправить - выполните:
-
-```sh
-$ git config --global url."git@gitlab.2gis.ru:".insteadOf "https://gitlab.2gis.ru/"
-```
-
-### Качаем boilerplate для проекта в Deis
+Утилита `go get` по-умолчанию использует https. Если начать скачивать пакет с приватного репозитория
+по https, то потребуется авторизация. Чтобы забирать пакеты по ssh ключу выполните:
 
 ```sh
-$ go get gitlab.2gis.ru/continuous-delivery/go-example
-
+$ git config --global url."git@github.com:".insteadOf "https://github.com/"
 ```
+
 ## Настройка редактора
 
 Для idea есть [go plugin][goplug], будет работать на любых IDE от JetBrains.
@@ -97,12 +92,11 @@ $ go get gitlab.2gis.ru/continuous-delivery/go-example
 
 ## Другие рекомендации
 
-Много других материалов по go можно найти в [confluence][golang-must-read].
+Много других материалов по go можно найти в [awesome-go][golang-must-read].
 
 [gocode]: https://golang.org/doc/code.html
 [gimme]: https://github.com/travis-ci/gimme
 [godl]: https://golang.org/dl/
 [goplug]: https://github.com/go-lang-plugin-org/go-lang-idea-plugin
 
-[golang-must-read]: https://github.com/heroku/go-getting-started
-
+[golang-must-read]: https://github.com/avelino/awesome-go
