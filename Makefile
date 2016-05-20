@@ -10,7 +10,9 @@ PACKAGES := golang.org/x/tools/cmd/oracle \
 	github.com/mattn/goreman \
 	github.com/tools/godep \
 	github.com/kardianos/govendor \
-	github.com/alecthomas/gometalinter
+	github.com/alecthomas/gometalinter \
+	github.com/warmans/golocc \
+	github.com/divan/depscheck
 
 install-go-tools:
 	$(foreach pkg,$(PACKAGES),go get -u $(pkg);)
